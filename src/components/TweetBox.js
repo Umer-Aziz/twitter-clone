@@ -9,8 +9,8 @@ const TweetBox = () => {
     const SendTweet = (e) =>{
         e.preventDefault();  
         db.collection("posts").add({
-      displayName: "Rafeh Qazi",
-      username: "cleverqazi",
+      displayName: "umer aziz",
+      username: "umer_aziz0",
       verified: true,
       text: tweetMessage,
       image: tweetImage,
